@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 16px;
+}
+.contenar{
+    background-color: #36517c;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    background-color: #36517c;
+    overflow: hidden;
+    width: 100%;
+    
+}
+  nav .logo{
+    width: 18%;
+    float: left;
+    margin-left: 10%;
+    cursor:pointer;
+}
+.logo h3 {
+    font-size:22px;
+    color:#fff;
+    letter-spacing: 2px;
+}
+
+ nav .menu {
+    width: 60%;
+    
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+nav .menu  li{
+    display: inline;
+    color:#fff;
+    margin: 12px;
+    transition: 4s;
+    
+}
+nav .menu li a{
+    padding: 5px;
+    color:#fff;
+    text-decoration: none;
+    transition: 4s;
+
+}
+.btn {
+    overflow: hidden;
+    background-color:#677fa7b7;
+    color:#fff;
+    text-decoration: none;
+    font-size:17px ;
+    width: 10%;
+    padding:5px 15px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    margin: auto ;
+    font-weight: 700;
+    font-family: 'josefin sans', sans-serif;
+
+}
+.container-texts .tb {
+    background-color:#4882e7fd;
+    color:#f8f7f8;
+    text-decoration: none;
+    font-weight: bold;
+    padding:5px 15px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-family: 'josefin sans', sans-serif;
+
+    
+}
+
+.container-texts .tb:hover{
+    padding:5px 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background-color:#0648b9fd;
+}
+p {
+    color:#fff;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+h2 {
+    color:#fff;
+    letter-spacing: 2px;
+}
+.about .container-texts  h1  {
+    color:#fff;
+    letter-spacing: 2px;
+}
+
+.menu li a:hover{
+    border: 1px solid rgb(172, 164, 164);
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.btn:hover{
+    border: 1px solid rgb(172, 164, 164);
+    padding:5px 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.about{
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about  .container-images img{
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.container-images {
+    width: 50%;
+}
+.about .container-texts {
+    width:50%;
+    margin-top: 15px;
+    margin: 20px 50px;
+}
+
+
